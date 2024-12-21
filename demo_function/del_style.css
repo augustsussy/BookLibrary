@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #56443f;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    display: flex;
+}
+
+.details-container {
+    background-color: rgba(187, 170, 145, 0.2); /* White background with 80% opacity */
+    padding: 20px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.book-details {
+    flex: 1;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #f0f0f0e5;
+}
+h2{
+    color: #c39d88;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.book-image {
+    max-width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.button-container {
+    text-align: left;
+}
+
+.button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.confirm {
+    background-color: #bbaa91;
+    color: #56443f;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.confirm:hover {
+    background-color: #a47764; /* Darker shade for hover effect */
+    color: #f0f0e5; /* Change text color on hover */
+    font-family: 'Poppins', sans-serif;
+}
+
+.cancel {
+    background-color: #8b645a;
+    color: #f0f0e5;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cancel:hover {
+    background-color: #a47764; /* Darker shade for hover effect */
+    font-family: 'Poppins', sans-serif;
+    color: #f0f0f0e5; /* Change text color on hover */
+}
